@@ -1,0 +1,18 @@
+{
+  "storeId": "van-buren",
+  "agentId": "van-buren-agent-1",
+  "apiUrl": "https://api.example.com",
+  "agentKey": "set CSF_AGENT_KEY in the environment instead",
+  "dataDir": "./agent-data",
+  "commander": {
+    "host": "https://192.168.31.11",
+    "user": "set the agent's own view-only login",
+    "password": "set CSF_COMMANDER_PASSWORD in the environment instead",
+    "certFingerprint256": "run `agent test-connection` and paste the fingerprint here"
+  },
+  "pollSeconds": 60,
+  "backfillDays": 35,
+  "maxPeriodsPerCycle": 3,
+  "rubyReports": ["summary", "tax", "department", "network"],
+  "liveSummary": true
+}

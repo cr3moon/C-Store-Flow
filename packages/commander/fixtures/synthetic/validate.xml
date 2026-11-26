@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SYNTHETIC fixture. Shape from MyStore notes; values invented. -->
+<credential>
+  <cookie>SIMCOOKIE</cookie>
+  <functions>
+    <function><cmd>vtlogpdlist</cmd><name>T-Log Period List</name></function>
+    <function><cmd>vtransset</cmd><name>Transaction Set</name></function>
+    <function><cmd>vreportpdlist</cmd><name>Report Period List</name></function>
+    <function><cmd>vrubyrept</cmd><name>Ruby Reports</name></function>
+    <function><cmd>vPLUs</cmd><name>PLU View</name></function>
+  </functions>
+</credential>

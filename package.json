@@ -1,0 +1,33 @@
+{
+  "name": "c-store-flow",
+  "private": true,
+  "description": "Cloud back office for independent gas stations on Verifone Commander",
+  "type": "module",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "workspaces": [
+    "packages/core",
+    "packages/commander",
+    "apps/agent",
+    "apps/api",
+    "apps/web"
+  ],
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "check": "npm run typecheck && npm run test && npm run build -w @csf/web",
+    "simulator": "npm run simulator -w @csf/commander",
+    "api": "npm run dev -w @csf/api",
+    "agent": "npm run dev -w @csf/agent",
+    "web": "npm run dev -w @csf/web",
+    "demo": "tsx scripts/demo.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.0",
+    "typescript": "~5.9.0",
+    "vitest": "^3.2.0"
+  }
+}

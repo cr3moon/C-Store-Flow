@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- UNTESTED TEMPLATE -->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key><string>com.cstoreflow.agent</string>
+  <key>WorkingDirectory</key><string>/usr/local/cstoreflow/agent</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/usr/local/bin/npx</string>
+    <string>tsx</string>
+    <string>src/main.ts</string>
+    <string>run</string>
+    <string>--config</string>
+    <string>/usr/local/etc/cstoreflow/agent.config.json</string>
+  </array>
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>CSF_AGENT_KEY</key><string>REPLACE_ME</string>
+    <key>CSF_COMMANDER_PASSWORD</key><string>REPLACE_ME</string>
+  </dict>
+  <key>RunAtLoad</key><true/>
+  <key>KeepAlive</key><true/>
+  <key>StandardOutPath</key><string>/usr/local/var/log/cstoreflow-agent.log</string>
+  <key>StandardErrorPath</key><string>/usr/local/var/log/cstoreflow-agent.log</string>
+</dict>
+</plist>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SYNTHETIC fixture. Shape from MyStore notes; values invented. -->
+<domain:periodList xmlns:domain="urn:vfi-sapphire:np.domain.2001-07-01" xmlns:vs="urn:vfi-sapphire:vs.2001-10-01">
+  <periodInfo>
+    <vs:period sysid="1"/>
+    <name>current</name>
+    <desc>Current SHIFT</desc>
+    <reportParameter name="period">1</reportParameter>
+    <reportParameter name="filename">current</reportParameter>
+  </periodInfo>
+  <periodInfo>
+    <vs:period sysid="1"/>
+    <name>2026-11-20.480</name>
+    <desc>2026-11-20 (SHIFT-480)</desc>
+    <reportParameter name="period">1</reportParameter>
+    <reportParameter name="filename">2026-11-20.480</reportParameter>
+  </periodInfo>
+  <periodInfo>
+    <vs:period sysid="2"/>
+    <name>current</name>
+    <desc>Current DAILY</desc>
+    <reportParameter name="period">2</reportParameter>
+    <reportParameter name="filename">current</reportParameter>
+  </periodInfo>
+  <periodInfo>
+    <vs:period sysid="2"/>
+    <name>2026-11-20.401</name>
+    <desc>2026-11-20 (DAILY-401)</desc>
+    <reportParameter name="period">2</reportParameter>
+    <reportParameter name="filename">2026-11-20.401</reportParameter>
+  </periodInfo>
+</domain:periodList>

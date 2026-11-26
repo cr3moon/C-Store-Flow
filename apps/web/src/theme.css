@@ -1,0 +1,76 @@
+/* Design tokens from the approved phone mockups. Dark by default. */
+:root {
+  --bg: #0e1014;
+  --surface: #171a21;
+  --surface-2: #12151b;
+  --border: #262b36;
+  --text: #f2f4f8;
+  --text-muted: #9aa3b2;
+  --accent: #5eead4;
+  --warn: #ffb84d;
+  --bad: #ff7a7a;
+  --radius-card: 20px;
+  --radius-row: 16px;
+  --font-body: "Inter", system-ui, sans-serif;
+  --font-display: "Space Grotesk", var(--font-body);
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+}
+
+.page {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 24px 16px 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+h1 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.muted { color: var(--text-muted); font-size: 13px; }
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  padding: 16px;
+}
+
+.rows { display: flex; flex-direction: column; }
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 14px;
+}
+.row:last-child { border-bottom: 0; }
+
+.ok { color: var(--accent); font-weight: 600; }
+.warn { color: var(--warn); font-weight: 600; }
+.bad { color: var(--bad); font-weight: 600; }
+
+.badge {
+  align-self: flex-start;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-muted);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 4px 10px;
+}

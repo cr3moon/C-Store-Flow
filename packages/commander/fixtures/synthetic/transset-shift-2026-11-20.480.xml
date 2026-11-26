@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SYNTHETIC fixture. Shape from MyStore notes; values invented. -->
+<transSet periodID="1" periodname="SHIFT" longId="2026-11-20" shortId="480" site="0001">
+  <openedTime>2026-11-20T02:05:00-06:00</openedTime>
+  <closedTime>2026-11-21T02:05:00-06:00</closedTime>
+  <startTotals><insideSales>100000.00</insideSales><outsideSales>200000.00</outsideSales><overallSales>300000.00</overallSales></startTotals>
+  <trans type="sale" recalled="false">
+    <trHeader><trTickNum><trSeq>1001</trSeq></trTickNum><trUniqueSN>5001</trUniqueSN><date>2026-11-20T07:10:00-06:00</date></trHeader>
+    <trValue>
+      <trTotNoTax>3.19</trTotNoTax><trTotWTax>3.41</trTotWTax><trTotTax>0.22</trTotTax>
+      <trTax><taxAmts><taxAmt cat="HIGH TAX">3.19</taxAmt><taxRate cat="HIGH TAX">7.000</taxRate><taxNet cat="HIGH TAX">0.22</taxNet></taxAmts></trTax>
+    </trValue>
+  </trans>
+  <trans type="periodClose"><periodName>SHIFT</periodName><periodType>1</periodType><periodSeq>480</periodSeq></trans>
+  <endTotals><insideSales>100003.41</insideSales><outsideSales>200000.00</outsideSales><overallSales>300003.41</overallSales></endTotals>
+</transSet>

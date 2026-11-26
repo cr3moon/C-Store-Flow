@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SYNTHETIC fixture. Shape from MyStore notes; values invented. -->
+<pd:networkPd xmlns:pd="urn:vfi-sapphire:pd.2002-05-21">
+  <totals>
+    <cardInfo><cardName>CREDIT</cardName><count>1</count><amount>2.06</amount></cardInfo>
+    <cardInfo><cardName>DEBIT</cardName><count>1</count><amount>20.00</amount></cardInfo>
+  </totals>
+</pd:networkPd>

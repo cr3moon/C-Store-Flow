@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SYNTHETIC fixture. Shape from MyStore notes; values invented. -->
+<pd:taxPd xmlns:pd="urn:vfi-sapphire:pd.2002-05-21" xmlns:vs="urn:vfi-sapphire:vs.2001-10-01">
+  <totals>
+    <taxInfo><vs:taxrateBase sysid="1" name="HIGH TAX"/><taxableSales>3.19</taxableSales><netTax>0.22</netTax></taxInfo>
+    <taxInfo><vs:taxrateBase sysid="2" name="LOW TAX"/><taxableSales>2.00</taxableSales><netTax>0.06</netTax></taxInfo>
+    <taxInfo><vs:taxrateBase sysid="3" name="HIGH TAX"/><taxableSales>0.00</taxableSales><netTax>0.00</netTax></taxInfo>
+  </totals>
+  <byCashier>
+    <totals>
+      <taxInfo><vs:taxrateBase sysid="1" name="HIGH TAX"/><taxableSales>999.99</taxableSales><netTax>99.99</netTax></taxInfo>
+    </totals>
+  </byCashier>
+</pd:taxPd>

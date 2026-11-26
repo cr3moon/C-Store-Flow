@@ -1,0 +1,21 @@
+{
+  "name": "@csf/agent",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "C-Store-Flow store agent: reads the Verifone Commander and sends raw captures to the cloud",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "tsx src/main.ts run --config agent.config.json",
+    "once": "tsx src/main.ts once --config agent.config.json",
+    "test-connection": "tsx src/main.ts test-connection --config agent.config.json"
+  },
+  "dependencies": {
+    "@csf/commander": "0.1.0",
+    "@csf/core": "0.1.0",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@csf/api": "0.1.0"
+  }
+}

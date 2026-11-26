@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.expo/
+*.log
+.env
+.env.*
+!.env.example
+# Agent runtime data (queue, logs) — never commit
+data/
+agent-data/
+# Real Commander captures may contain store data; review before committing
+packages/commander/fixtures/real/*.xml
+!packages/commander/fixtures/real/README.md
+.DS_Store

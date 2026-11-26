@@ -1,0 +1,15 @@
+{
+  "name": "@csf/commander",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "simulator": "tsx src/simulator-cli.ts"
+  },
+  "dependencies": {
+    "@csf/core": "0.1.0",
+    "fast-xml-parser": "^5.2.0"
+  }
+}

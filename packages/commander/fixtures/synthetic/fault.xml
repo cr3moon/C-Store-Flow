@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SYNTHETIC fixture. Shape from MyStore notes; values invented. -->
+<e:fault xmlns:e="urn:vfi-sapphire:np.error.2001-07-01">
+  <e:message>Invalid credential</e:message>
+</e:fault>

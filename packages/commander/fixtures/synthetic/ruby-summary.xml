@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SYNTHETIC fixture. Shape from MyStore notes; values invented. -->
+<pd:summaryPd xmlns:pd="urn:vfi-sapphire:pd.2002-05-21">
+  <totals>
+    <summaryInfo>
+      <insideSales>5.47</insideSales>
+      <fuelSales>20.00</fuelSales>
+      <totalSales>25.47</totalSales>
+      <mopInfo><mopName>CASH</mopName><amount>3.41</amount></mopInfo>
+      <mopInfo><mopName>CREDIT</mopName><amount>2.06</amount></mopInfo>
+      <mopInfo><mopName>DEBIT</mopName><amount>20.00</amount></mopInfo>
+    </summaryInfo>
+    <difference><outsideSales>18.00</outsideSales></difference>
+  </totals>
+  <byRegister>
+    <totals>
+      <summaryInfo><fuelSales>999.99</fuelSales></summaryInfo>
+    </totals>
+  </byRegister>
+</pd:summaryPd>

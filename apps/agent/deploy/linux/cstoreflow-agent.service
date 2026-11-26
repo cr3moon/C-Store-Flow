@@ -1,0 +1,20 @@
+# UNTESTED TEMPLATE
+[Unit]
+Description=C-Store-Flow store agent
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=cstoreflow
+WorkingDirectory=/opt/cstoreflow/agent
+EnvironmentFile=/etc/cstoreflow/agent.env
+ExecStart=/usr/bin/npx tsx src/main.ts run --config /etc/cstoreflow/agent.config.json
+Restart=always
+RestartSec=10
+NoNewPrivileges=true
+ProtectSystem=strict
+ReadWritePaths=/var/lib/cstoreflow
+
+[Install]
+WantedBy=multi-user.target

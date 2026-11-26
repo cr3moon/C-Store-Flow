@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SYNTHETIC fixture. Shape from MyStore notes; values invented. -->
+<pd:departmentPd xmlns:pd="urn:vfi-sapphire:pd.2002-05-21" xmlns:vs="urn:vfi-sapphire:vs.2001-10-01">
+  <totals>
+    <deptInfo><vs:deptBase sysid="10" name="PACKAGED BEVERAGE"/><netSales>3.19</netSales></deptInfo>
+    <deptInfo><vs:deptBase sysid="20" name="GROCERY"/><netSales>2.00</netSales></deptInfo>
+  </totals>
+</pd:departmentPd>
